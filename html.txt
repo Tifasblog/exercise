@@ -1,9 +1,24 @@
+<!--有序清單-->
 <ol>
   <li>li in ol</li>
   <li>li in ol</li>
   <li>li in ol</li>
 </ol>
-
+<!--無序清單-->
+<ul>
+    <li>li in ul</li>
+    <li>li in ul</li>
+    <li>li in ul</li>
+  </ul>
+<!--輸入-->
+<input type="text" placeholder="placeholder">
+<form action="https://freecatphotoapp.com/submit-cat-photo"><input type="text" placeholder="cat photo URL"></form>
+<!--形成-輸入類型-要求-按鈕類型-->
+<form action="https://freecatphotoapp.com/submit-cat-photo">
+    <input type="text" required><placeholder="placeholder">
+    <button type="submit">button type="submit"</button>
+    
+<!--網站-->
 <h2>CatPhotoApp</h2>
 <main>
 
