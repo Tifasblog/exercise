@@ -13,20 +13,44 @@
 <!--輸入-->
 <input type="text" placeholder="placeholder">
 <form action="https://freecatphotoapp.com/submit-cat-photo"><input type="text" placeholder="cat photo URL"></form>
-<!--形成-輸入類型-要求-按鈕類型-->
+<!--表單-輸入類型+要求-佔位符-按鈕類型-->
 <form action="https://freecatphotoapp.com/submit-cat-photo">
     <input type="text" required><placeholder="placeholder">
     <button type="submit">button type="submit"</button>
-    
-<!--網站-->
+    </form>
+<!--單選按鈕:表單-標籤-輸入(身分.類型.名稱)-->
+<form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
+    </form>
+<!--多選按鈕:標籤-輸入(身分.類型.名稱)-->
+<label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
+<!--網站-->https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/create-a-set-of-checkboxes
 <h2>CatPhotoApp</h2>
 <main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
 
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
 
-
-  <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
-
-  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
-  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="https://freecatphotoapp.com/submit-cat-photo">
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
+    <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
+    <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
 </main>
-https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/link-to-external-pages-with-anchor-elements
