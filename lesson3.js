@@ -1,4 +1,4 @@
-//3-2
+//3-2 除以某數的餘數
 var number = 2;
 
 if (number % 2 === 0) {
@@ -6,7 +6,7 @@ if (number % 2 === 0) {
 } else {
     console.log("odd");
 }
-//3-3
+//3-3 else if
 var musicians = 0;
 
 if (musicians<=0){
@@ -22,7 +22,7 @@ if (musicians<=0){
 } else {
     console.log("this is a large group");
 }
-//3-4 謀殺之謎
+//3-4 謀殺之謎 變數符合結果條件
 var room = "gallery";
 var suspect = "Ms. Van Cleve";
 var weapon;
@@ -60,7 +60,7 @@ if (solved === true) {
 }else{
     console.log(solved);
 }
-//3-5 查看餘額
+//3-5 查看餘額 boolean toFixed
 var balance = 10.999;
 var checkBalance = true;
 var isActive = true;
@@ -76,10 +76,10 @@ if(checkBalance === true && isActive === true && balance === 0){
 }else{
     console.log("Thank you. Have a nice day!");
 }
-//3-6 冰激凌
-var flavor="chocolate";
+//3-6 冰激凌 ((||)&&(||)&&(||))
+var flavor= "chocolate";
 var vessel = "cone";
-var toppings="others";
+var toppings= "others";
 var solved;
 
 if ((flavor === "vanilla" || flavor === "chocolate") && 
@@ -120,13 +120,13 @@ if(shirtWidth<"20" && shirtLength<="29" && shirtSleeve<"8.38"){
     size = "NA";
 }
 console.log(size);
-//3-8 了解食物鏈
+//3-8 了解食物鏈 var ? (var2 ? 1:0):(var3 ? 1:0)
 var eatsPlants = 0;
 var eatsAnimals = 0;
 var category = eatsPlants ? (eatsAnimals ? "omnivore" : "herbivore")
   : (eatsAnimals ? "carnivore" : "undefined" );
 console.log(category);
-//3-9 學歷
+//3-9 學歷 switch case toLocaleString
 var education = "no high school diploma";
 var salary = 0;
 
